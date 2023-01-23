@@ -40,3 +40,21 @@ nav{
   font-weight: bolder;
   font-size: 1.3rem;
 }
+
+.container{
+  min-height: 75vh;
+}
+
+.bottom{
+  background-color: black;
+  height: 130px;
+  position: static;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#myProgressBar{
+  width: 80vw;
+  text-align: center;
+}
