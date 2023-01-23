@@ -1,8 +1,42 @@
-body{
-    background-color: blanchedalmond;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
 
 *{
   margin: 0;
   padding: 0;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+nav{
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+.nav ul{
+  display: flex;
+  height: 60px;
+  list-style: none;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+.nav ul li{
+  padding: 0px 10px;
+}
+
+.nav-logo img{
+    width: 50px;
+    padding: 0px 10px;
+}
+
+.nav-logo{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
 }
