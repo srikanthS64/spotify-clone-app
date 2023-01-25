@@ -17,9 +17,9 @@ let myProgressBar = document.getElementById("myProgressBar");
     {songNmae: "Aabic Kuthu", filePath: "songs/8.mp3", coverpath: "img/8.jpeg"},
 
  ]
-//handle play/pause click
-
- masterPlay.addEventListener('click', ()=>{
+//handle play/pause c
+console.log(addEventListener);
+ masterPlay.addEventListener('click', () => {
       if(audioElement.paused || audioElement.currentTime<=0){
          audioElement.play();
          masterPlay.classList.remove('fa-play-circle');
